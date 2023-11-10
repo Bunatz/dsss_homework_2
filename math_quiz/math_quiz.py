@@ -75,8 +75,8 @@ def math_quiz():
     number_question = 3 #how many calculation are required
 
     print("Welcome to the Math Quiz Game!")
-    print("You will be presented with math problems, and you need to provide \
-          the correct answers.")
+    print("""You will be presented with math problems, and you need to provide
+    the correct answers.""")
 
     for _ in range(number_question):
         num1 = create_rand_int(1, 10); 
